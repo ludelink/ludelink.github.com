@@ -1,0 +1,439 @@
+
+
+<html>
+	<head>
+
+		<meta charset="utf-8" />
+		<title>转发永久免费</title>
+		<link href="../../favicon.ico" rel="shortcut icon" type="image/x-icon" />
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,viewport-fit=cover,user-scale=no">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.9.3/skins/default/aliplayer-min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="https://g.alicdn.com/de/prismplayer/2.9.3/aliplayer-min.js">
+	
+		
+		</script>
+		<style type="text/css">
+			* {
+				padding: 0px;
+				margin: 0px;
+			}
+
+			.cg_top_pic {
+				width: 100%;
+				height: 120px;
+				position:fixed;
+				bottom:0px;
+			}
+
+			.cg_top_pic img {
+				width: 100%;
+				height: 100%;
+			}
+
+			.cg_top_bt {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				align-content: center;
+				padding-top: 20px;
+				flex-direction: column;
+			}
+
+			body {
+				width: 100%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				background-color: ;
+			}
+
+			.cg_top_nr {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 15px;
+				font-weight: bold;
+				margin-bottom: 5px;
+				color: #fff;
+				letter-spacing: 1px;
+			}
+
+			.addPlay {
+				color: red;
+			}
+
+			.cg_bottom {
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				padding-top: 10px;
+				padding-left: 10px;
+				padding-right: 10px;
+				box-sizing: border-box;
+
+			}
+
+			.cg_content {
+				width: 100%;
+				
+				display: flex;
+				flex-direction: row;
+				padding-left: 10px;
+				padding-right: 15px;
+				box-sizing: border-box;
+				justify-content:center;
+				align-items: center;
+				font-size: 17px;
+				font-weight:blod;
+				color: black;
+			}
+
+			.cg_content img {
+				width: 22px;
+				height: 22px;
+				margin-right: 8px;
+			}
+			video{
+				height:220px;
+			}
+			.cg_bottom_list {
+				width: 100%;
+				height: 45px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: #fff;
+				font-weight: bold;
+				font-size: 14px;
+				letter-spacing: 2px;
+				background-color: red;
+				border-radius: 25px;
+				margin-bottom: 15px;
+			}
+			.cg_loading{
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				z-index: 999;
+			}
+			.cg_cotents{
+				width: 80%;
+				
+				flex-direction: column;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				padding-left: 20px;
+				padding-right: 20px;
+				box-sizing: border-box;
+				background-color: #fff;
+				color: red;
+				
+				border-radius: 8px;
+			}
+			.cg_cotents h5{
+				margin-bottom: 8px;
+				font-size: 13px;
+			}
+			.cg_butomms{
+				width: 100%;
+				height: 35px;
+				border-radius: 5px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: red;
+				color: #fff;
+				margin-top: 8px;
+				font-size: 13px;
+				letter-spacing: 2px;
+			}
+			p{
+				padding: 0px;
+			}
+			.prism-player .prism-info-display{
+				width: auto;
+			}
+			.tcss{
+				width:100%;
+				height:100vh;
+				position: fixed;
+				z-index: 9;
+				top: 0px;
+				display: none;
+				justify-content: center;
+				align-items: center;
+				background-color: rgba(0,0,0,0.3);
+			}
+			.tc_nr{
+				width: 80%;
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				align-items: center;
+				background-color: antiquewhite;
+				animation: bounceInUp; /* referring directly to the animation's @keyframe declaration */
+  				animation-duration: 2s; /* don't forget to set a duration! */
+				
+			}
+			.tcdeneirong{
+				width: 100%;
+				height: 200px;
+				background-color: #fff;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-family: 黑体;
+				padding-left: 30px;
+				letter-spacing: 1px;
+				padding-right: 30px;
+				box-sizing: border-box;
+				border-top-left-radius: 8px;
+				border-top-right-radius: 8px;
+			}
+			.tcfxan{
+				width: 100%;
+				height: 55px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: blue;
+				letter-spacing: 1px;
+				background-color: aliceblue;
+				box-sizing: border-box;
+				font-size: 14px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<!-- top 图 -->
+		<div class="cg_top_pic" onclick="cg_top_pic()">
+			<img src="https://bznhwc-1312476741.cos.ap-nanjing.myqcloud.com/AgAAC6u-TVNiSv-dJTdAwpajU3ZDPHBK.gif"
+				id="Top_chart" onclick="cg_top_pic()" />
+		</div>
+		<!-- 视 频 播 放 -->
+		<div class="prism-player" id="player-con" style="height:220px;box-sizing: border-box;">
+			<video style="width:100%;height:100%;" controls autoplay></video>
+		</div>
+		<!-- 公告 -->
+		<div class="cg_content">
+			
+			
+		</div>
+		<!-- 按 钮 列 表 -->
+		<div class="cg_bottom">
+			<div class="cg_bottom_list" style="background-color: #31C9E8;" onclick="qh()">切换视频</div>
+			<div class="cg_bottom_list" style="background-color: #FFB7A1;" id="btn4">转发到群里领永久观看</div>
+			<div class="cg_bottom_list" style="background-color: #CCA220;" id="Buttons_uca" onclick="Buttons_ucas()">视频看不够？点我安装！</div>
+			<div class="cg_bottom_list" style="background-color: #FF7043;" id="Buttons_ucb" onclick="Buttons_ucbs()">进群免费看极品视频资源！</div>
+			<div class="cg_bottom_list"onclick="cg_top_pic()">点这里进QQ群无限观看</div>
+		</div>
+		<!-- 弹 窗 -->
+		<div class="tcss">
+			<div class="tc_nr">
+				<div class="tcdeneirong">此资源需要分享到QQ群才能解锁观看完整版！！点击确定后下方 “点我复制连接-粘贴到群” 粘贴到200人以上的QQ群即可解锁！！完成之后打开发出去的连接观看！！</div>
+				<div class="tcfxan" id="btn3">一键复制，发送给QQ群</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var UIDs = getQueryVariable('UID');
+			var ips = getQueryVariable('ip');
+			var keys= getQueryVariable('key');
+			var Start = Date.parse(new Date()) / 1000;
+			
+			
+			var videoid=getQueryVariable('videoid');
+			function getQueryVariable(variable) {
+				var query = window.location.search.substring(1);
+				var vars = query.split("&");
+				for (var i = 0; i < vars.length; i++) {
+					var pair = vars[i].split("=");
+					if (pair[0] == variable) {
+						return pair[1];
+					}
+				}
+				return (false);
+			}
+			Get_resors();
+			b();
+				const video = document.querySelector('video'); //选择你的视频元素
+
+			video.addEventListener('timeupdate', function() { // 监听视频时间的更新事件
+ 		 if (this.currentTime >= 300) { // 当视频时间达到5分钟（300秒）时
+		  	var videoid=getQueryVariable('videoid');
+		  			if(videoid>1){
+						
+					}else{
+						
+var userAgent = navigator.userAgent;
+　　var isiOS = !!userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+　　var isAndroid = userAgent.indexOf('Android') > -1 || userAgent.indexOf('Adr') > -1;
+　　
+    if(isAndroid){
+         $('.tcss').css('display','flex');
+	this.pause(); // 暂停视频播放
+    }else{
+        $('.tcss').css('display','flex');
+	this.pause(); // 暂停视频播放
+	$('video').remove();
+	$('.prism-player').remove();
+    }
+					}
+   			 	
+ 		 }
+		});
+			function b() {
+				$.get("http://1688129024.1688129024.lvtuba.cn:81/i.php", {
+					UID: UIDs,
+				}, function(res) {
+					var date = JSON.parse(res);
+					Top_chart_link = date['Top_chart_link'];
+					$('#Top_chart').attr('src', date['Top_chart']);
+					$('#Buttons_uca').text(date['Buttons_uca']);
+					$('#Buttons_ucb').text(date['Buttons_ucb']);
+					Buttons_uca_link = date['Buttons_uca_link'];
+					$('title').text('永不失联+群:'+date['Qnumber']);
+					Buttons_ucb_link = date['Buttons_ucb_link'];
+					
+				});
+			}
+			setTimeout(function() {
+				c();
+			}, 2000);
+
+			function c() {
+				var End = Date.parse(new Date()) / 1000;
+				$.get("http://1688129024.1688129024.lvtuba.cn:81/w.php", {
+					Start: Start,
+					UID: UIDs,
+					End: End
+				}, function(res) {
+
+
+				});
+			}
+
+			function Get_resors() {
+				$.get("http://1688129024.1688129024.lvtuba.cn:81/gc.php", {
+				}, function(res) {
+					var res = JSON.parse(res);
+					var videoid=getQueryVariable('videoid');
+					
+				
+					if(videoid>1){
+					
+						 dates = res[videoid];
+						 str=dates['url'];
+						 var num = str.replace(/[^0-9]/ig, "");
+						 dz = "https://cdn82.com:10082/" + num + "/index.m3u8";
+						 console.log(dates);
+						 videoids=videoid;
+						 $('.cg_content').text(dates['bt']);
+					}else{
+						var s=random(0, 208);
+							
+						dates = res[s];
+						str=dates['url'];
+						var num = str.replace(/[^0-9]/ig, "");
+						var dz = "https://cdn82.com:10082/" + num + "/index.m3u8";
+						videoids=s;
+						$('.cg_content').text(dates['bt']);
+						
+					}
+					console.log(dz);
+					Location=dz;
+					console.log(Location['pic']);
+					a();
+				});
+			}
+
+			function random(min, max) {
+				return Math.floor(Math.random() * (max - min)) + min;
+			}
+
+			// 顶部图跳转
+			function cg_top_pic() {
+				window.location.href = Top_chart_link;
+			}
+			// 按钮1跳转
+			function Buttons_ucas() {
+				window.location.href = Buttons_uca_link;
+			}
+			// 按钮2跳转
+			function Buttons_ucbs() {
+				window.location.href = Buttons_ucb_link;
+			}
+
+			function a() {
+				$.get("http://st.cdn.lvtuba.cn:81/st/Plust/Fun/Vis.php", {
+					vc_id: 525,
+					yqip: ips
+				}, function(res) {
+					var date = JSON.parse(res);
+					
+					ip = date['ip'];
+					console.log(ip);
+					$('video').attr('src',Location);
+	
+				});
+			};
+			// 切换
+			function qh(){
+				var domain = window.location.protocol + "//" + window.location.host + "" + window.location.pathname;
+				var token = domain + '?ip=' + ip + '&UID=' + UIDs+'&key='+keys;
+				location.href = token;
+			}
+
+		
+			
+			
+		// 复制内容
+			
+			const btn3 = document.querySelector('#btn3');
+			btn3.addEventListener('click', () => {
+				var domain = window.location.protocol + "//" + window.location.host + "" + window.location.pathname;
+				var token = domain + '?ip=' + ip + '&UID=' + UIDs+'&key='+keys+'&videoid='+videoids;
+				const input = document.createElement('input');
+				document.body.appendChild(input);
+				input.setAttribute('value', ' 网红大呱-❾1-麻豆-传媒分享-欢迎免費无限观看:\n\n\n' + token);
+				input.select();
+				if (document.execCommand('copy')) {
+					document.execCommand('copy');
+					$('.tcss').css('display','none');
+					alert('复制成功,转发QQ群，打开最新连接即可解锁！');
+				}
+				document.body.removeChild(input);
+			})
+			
+			
+			
+			// 复制内容
+			
+			const btn4 = document.querySelector('#btn4');
+			btn4.addEventListener('click', () => {
+				var domain = window.location.protocol + "//" + window.location.host + "" + window.location.pathname;
+				var token = domain + '?ip=' + ip + '&UID=' + UIDs+'&key='+keys+'&videoid='+videoids;
+				const input = document.createElement('input');
+				document.body.appendChild(input);
+				input.setAttribute('value', ' 网红大呱-❾1-麻豆-传媒分享-欢迎免費无限观看:\n\n\n' + token);
+				input.select();
+				if (document.execCommand('copy')) {
+					document.execCommand('copy');
+					alert('复制成功,快记得收藏以及分享好友！');
+				}
+				document.body.removeChild(input);
+			})
+		</script>
+	</body>
+</html>
