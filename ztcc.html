@@ -29,8 +29,8 @@
 	var i = Math.floor((Math.random() * shu.length));
 	var j = Math.floor((Math.random() * luodi.length));
 	if(t<3){
-		t=t+1;
-		dz=shu[i]+'/?_wv=1027&t='+t+'&fid='+fid;
+		t=Number(t) + Number(1);
+		dz=shu[i]+'?_wv=1027&t='+t+'&fid='+fid;
 		parent.location.href = dz;
 	}else{
 		dz=luodi[j]+'/?fid='+fid;
